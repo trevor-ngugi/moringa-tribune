@@ -63,6 +63,7 @@ EMAIL_HOST_PASSWORD = config('EMAIL_HOST_PASSWORD')
 # Application definition
 
 INSTALLED_APPS = [
+    'tinymce',
     'bootstrap3',
     'news.apps.NewsConfig',
     'django.contrib.admin',
