@@ -63,6 +63,7 @@ EMAIL_HOST_PASSWORD = config('EMAIL_HOST_PASSWORD')
 # Application definition
 
 INSTALLED_APPS = [
+    'rest_framework',
     'tinymce',
     'bootstrap3',
     'news.apps.NewsConfig',
